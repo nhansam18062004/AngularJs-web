@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "hinh": "24ksp1.webp",
+        "hinha": "24ksp1a.webp",
+        "hinhb": "24ksp1b.webp",
+        "name": "Bông Hoa Mai  Vàng 24K",
+        "loai": "bongtai24",
+        "danhmuc":"vang24k",
+        "quanlity": 1,
+        "gia": 5890000
+    },
+    {
+        "id": 2,
+        "hinh": "18ksp1.webp",
+        "hinha": "18ksp1a.webp",
+        "hinhb": "18ksp1b.jpg",
+        "name": "Dây cong bọng Vàng 18K",
+        "loai": "day18",
+        "danhmuc":"vang18k",
+        "quanlity": 1,
+        "gia": 6360000
+    },
+    {
+        "id": 3,
+        "hinh": "24ksp2.webp",
+        "hinha": "24ksp2a.webp",
+        "hinhb": "24ksp2b.webp",
+        "name": "Nhẫn Kim Tiền Vàng 24K",
+        "loai": "nhan24",
+        "danhmuc":"vang24k",
+        "quanlity": 1,
+        "gia": 5900000
+    },
+    {
+        "id": 4,
+        "hinh": "trang.webp",
+        "hinha": "tranga.webp",
+        "hinhb": "trangb.webp",
+        "name": "Bông Đẩy 1 Hột Vàng Trắng",
+        "loai": "bongtrang",
+        "danhmuc":"vangtrang",
+        "quanlity": 1,
+        "gia": 2990000
+    },
+    {
+        "id": 5,
+        "hinh": "18ksp3.webp",
+        "hinha": "18ksp3a.webp",
+        "hinhb": "18ksp3b.webp",
+        "name": "Nhẫn 1 Hột Vàng 18K",
+        "loai": "nhan18",
+        "danhmuc":"vang18k",
+        "quanlity": 1,
+        "gia": 1490000
+    },
+    {
+        "id": 6,
+        "hinh": "24ksp3.webp",
+        "hinha": "24ksp3a.webp",
+        "hinhb": "24ksp3b.webp",
+        "name": "Nhẫn Hoa Mai Vàng 24K",
+        "loai": "nhan24",
+        "danhmuc":"vang24k",
+        "quanlity": 1,
+        "gia": 5900000
+    },
+    {
+        "id": 7,
+        "hinh": "18ksp2.webp",
+        "hinha": "18ksp2a.webp",
+        "hinhb": "18ksp2b.webp",
+        "name": "Lắc Khoen Lật Vàng 18K",
+        "loai": "lac18",
+        "danhmuc":"vang18k",
+        "quanlity": 1,
+        "gia": 6460000
+    },
+
+    {
+        "id": 8,
+        "hinh": "24ksp4.webp",
+        "hinha": "24ksp4a.webp",
+        "hinhb": "24ksp4b.webp",
+        "name": "Vòng Trơn Vàng 24K",
+        "loai": "vong24",
+        "danhmuc":"vang24k",
+        "quanlity": 1,
+        "gia": 5990000
+    },
+
+    {
+        "id": 9,
+        "hinh": "18ksp4.webp",
+        "hinha": "18ksp4a.webp",
+        "hinhb": "18ksp4b.webp",
+        "name": "Bông 1 Hột Vàng 18K",
+        "loai": "bongtai18",
+        "danhmuc":"vang18k",
+        "quanlity": 1,
+        "gia": 1520000
+    },
+    {
+        "id": 10,
+        "hinh": "18ksp4.webp",
+        "hinha": "18ksp4a.webp",
+        "hinhb": "18ksp4b.webp",
+        "name": "a",
+        "loai": "bongtai18",
+        "danhmuc":"vang18k",
+        "quanlity": 1,
+        "gia": 1520000
+    }
+
+
+]

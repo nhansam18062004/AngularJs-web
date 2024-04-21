@@ -1,0 +1,196 @@
+<div class="container-full">
+
+    <div class="container">
+        <div class="row">
+            <h1 class=" col-6  ">{{id}}</h1>
+            <div class="col-3 text-center mt-1">Hiển thị 1-9 trên 14 kết quả</div>
+            <div class="col-2 ">
+                <select class="form-select" id="validationCustom04" ng-model="prop" ng-change="change()">
+                    <option value="name"> Thứ tự mặt định</option>
+                    <option value="id"> Mới nhất</option>
+                    <option value="gia">Thứ tự theo giá: thấp đến cao</option>
+                    <option value="-gia">Thứ tự theo giá: cao xuống thấp</option>
+                </select>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-3 mt-3">
+                <div class="mb-4">
+                    <h5>Bộ lọc:</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" ng-model="duoi2000" value=""
+                            id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Dưới 2.000.000₫
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" ng-model="trong3000" value=""
+                            id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            2.000.000₫ - 3.000.000₫
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" ng-model="tren3000" value=""
+                            id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Trên 3.000.000₫
+                    </div>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item  ">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-body-secondary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <strong>
+                                    VÀNG 24K</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="list-group  list-group-flush  ">
+                                    <a href="#!vang24k/Nhẫn 24k" ng-click="setCategoryFilter('nhan24')"
+                                        class="list-group-item ">Nhẫn <span
+                                            class="badge text-bg-secondary rounded-pill float-end ">5</span></a>
+                                    <a href="#!vang24k/Lắc 24k" ng-click="setCategoryFilter('lac24')"
+                                        class="list-group-item">Lắc <span
+                                            class="badge text-bg-secondary rounded-pill float-end">3</span></a>
+                                    <a href="#!vang24k/Bông tai 24k" ng-click="setCategoryFilter('bongtai24')"
+                                        class="list-group-item">Bông tai <span
+                                            class="badge text-bg-secondary rounded-pill float-end">3</span></a>
+                                    <a href="#!vang24k/Dây chuyền 24k" ng-click="setCategoryFilter('day24')"
+                                        class="list-group-item">Dây chuyền <span
+                                            class="badge text-bg-secondary rounded-pill float-end">2</span></a>
+                                    <a href="#!vang24k/Thỏi vàng 24k" ng-click="setCategoryFilter('thoivang24')"
+                                        class="list-group-item">Thỏi vàng<span
+                                            class="badge text-bg-secondary rounded-pill float-end">1</span></a>
+                                    <a href="#!vang24k/Vòng 24k" ng-click="setCategoryFilter('vong24')"
+                                        class="list-group-item">Vòng<span
+                                            class="badge text-bg-secondary rounded-pill float-end">2</span></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-body-secondary" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                <strong>
+                                    VÀNG 18K</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="list-group  list-group-flush ">
+                                    <a href="#!vang18k/Nhẫn 18k" ng-click="setCategoryFilter('nhan18')"
+                                        class="list-group-item ">Nhẫn <span
+                                            class="badge text-bg-secondary rounded-pill float-end ">3</span></a>
+                                    <a href="#!vang18k/Lắc 18k" ng-click="setCategoryFilter('lac18')"
+                                        class="list-group-item">Lắc <span
+                                            class="badge text-bg-secondary rounded-pill float-end ">3</span></a>
+                                    <a href="#!vang18k/Bông tai 18k" ng-click="setCategoryFilter('bongtai18')"
+                                        class="list-group-item">Bông tai <span
+                                            class="badge text-bg-secondary rounded-pill float-end ">2</span></a>
+                                    <a href="#!vang18k/Dây chuyền 18k" ng-click="setCategoryFilter('daychuyen18')"
+                                        class="list-group-item">Dây chuyền <span
+                                            class="badge text-bg-secondary rounded-pill float-end ">1</span></a>
+                                    <a href="#!vang18k/Vòng 18k" ng-click="setCategoryFilter('vong18')"
+                                        class="list-group-item">Vòng <span
+                                            class="badge text-bg-secondary rounded-pill float-end ">1</span></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-body-secondary" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                <strong>
+                                    VÀNG Ý</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="list-group  list-group-flush ">
+                                    <a href="#!vangtrang/Nhẫn Vàng Trắng" class="list-group-item ">Nhẫn <span
+                                            class="badge text-bg-secondary rounded-pill float-end ">3</span></a>
+                                    <a href="#!vangtrang/Lắc Vàng Trắng" class="list-group-item ">Lắc <span
+                                            class="badge text-bg-secondary rounded-pill float-end ">1</span></a>
+                                    <a href="#!vangtrang/Bông tai Vàng Trắng" ng-click="setCategoryFilter('bongtrang')"
+                                        class="list-group-item ">Bông tai <span
+                                            class="badge text-bg-secondary rounded-pill float-end ">2</span></a>
+                                    <a href="#!vangtrang/Dây chuyền Vàng Trắng" class="list-group-item ">Dây chuyền
+                                        <span class="badge text-bg-secondary rounded-pill float-end ">1</span></a>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center col-9">
+                <div class="p-3  row text-center ">
+                    <div class="col-sm-4 mb-4"
+                        ng-show="(!duoi2000 || sp.gia <= 2000000) && (!trong3000 || (sp.gia >= 2000000 && sp.gia <= 3000000)) && (!tren3000 || sp.gia >= 3000000 )"
+                        ng-repeat="sp in dssp|orderBy:prop|filter: { danhmuc: categoryFilter }|limitTo:limit : begin  ">
+                        <div class="card ">
+                            <a href="#!detail/{{sp.id}}" class="text-black text-decoration-none">
+                                <div class="card-title  m-0">
+                                    <img src="hinh/{{sp.hinh}}" alt="" width="200px">
+                                </div>
+                                <div class="card-body border-top ">
+                                    <p>{{sp.name}}</p>
+                                </div>
+                            </a>
+                            <div class="card-footer bg-body border-top-0">
+                                <div class="row">
+                                    <h5 class="col-8 text-danger">{{sp.gia.toLocaleString()}}đ</h5>
+                                    <button class="col-4 text-black-50 border-0 bg-white" ng-click="mua(sp)">
+                                        <span data-bs-toggle="tooltip" data-bs-title="Thêm vào giỏ"><i
+                                                class="fa-solid fa-bag-shopping fa-lg"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <nav aria-label="Page navigation example" class="mt-4 d-flex justify-content-center">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <button class="page-link  {{(page==1)?'disabled':''}}" href="#" aria-label="Previous"
+                                ng-click="chuyentrang(page-1)">
+                                <span aria-hidden="true">&laquo;</span>
+                            </button>
+                        </li>
+                        <li ng-repeat="trang in pagelist()" class="page-item">
+                            <button class="page-link {{(page==trang)?'active':''}}" ng-click="chuyentrang(trang)"
+                                href="#">{{trang}}</button>
+                        </li>
+                        <!-- <li class="page-item"><button class="page-link {{(page==2)?'active':''}}" ng-click="chuyentrang(2)" href="#">2</button></li>
+                          <li class="page-item"><button class="page-link {{(page==3)?'active':''}}" ng-click="chuyentrang(3)" href="#">3</button></li> -->
+                        <li class="page-item">
+                            <button class="page-link {{(page==totalpage())?'disabled':''}}" href="#" aria-label="Next"
+                                ng-click="chuyentrang(page+1)">
+                                <span aria-hidden="true">&raquo;</span>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
